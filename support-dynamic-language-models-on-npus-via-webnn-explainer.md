@@ -1,7 +1,7 @@
 # Support Dynamic Language Models on NPUs via WebNN
 
 ## Authors
-- [Wei Wang](mailto:wei4.wang@intel.com) (Intel)
+- [Wei Wang](mailto:wei4.wang@intel.com), [Wanming Lin](mailto:wanming.lin@intel.com) (Intel)
 
 ## Participate
 - [Support flexible input sizes #883](https://github.com/webmachinelearning/webnn/issues/883)
@@ -590,5 +590,3 @@ The proposed API covers the two use cases with the smallest surface we could fin
 - [ONNX Runtime OpenVINO EP stateful conversion (`ov_stateful_patch_utils.cc`)](https://github.com/microsoft/onnxruntime/blob/main/onnxruntime/core/providers/openvino/ov_stateful_patch_utils.cc)
 - [Core ML Tools — Stateful Models](https://apple.github.io/coremltools/docs-guides/source/stateful-models.html)
 - [LiteRT resource variables (`VAR_HANDLE`, `READ_VARIABLE`, `ASSIGN_VARIABLE`)](https://github.com/tensorflow/tflite-micro/blob/main/tensorflow/lite/micro/docs/resource_variables.md)
-- Many thanks for valuable feedback and advice from:
-  - [Wanming Lin](mailto:wanming.lin@intel.com)
